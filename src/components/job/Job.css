@@ -1,0 +1,56 @@
+.job {
+  padding: 40px 20px;
+  background: #111;
+  color: var(--textColor);
+  max-width: 340px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.job:hover {
+  background: #2196f3;
+  cursor: pointer;
+}
+
+.job > img {
+  max-width: 80px;
+  filter: invert(1);
+}
+
+.job > h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+  .job > h2 {
+    font-size: 19px;
+  }
+
+  .job > p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .job > h2 {
+    font-size: 17.5px;
+  }
+
+  .job > p {
+    font-size: 13px;
+    margin-top: 3px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .job > h2 {
+    font-size: 16.7px;
+  }
+
+  .job > p {
+    font-size: 12px;
+    margin-top: 3px;
+  }
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* .eduSkill {
+  display: flex;
+  background-color: var(--backColor);
+  flex-wrap: wrap;
+  padding: 0 70px;
+} */

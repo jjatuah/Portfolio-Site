@@ -1,0 +1,171 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar.active {
+  background: #fff;
+  padding: 20px 100px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.span {
+  color: var(--altColor);
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+ .active1 {
+  color: #111;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.list { 
+  position: relative;
+  display: flex;
+}
+
+.active2 {
+  position: relative;
+  display: flex;
+} 
+
+.list > li {
+  position: relative;
+  list-style: none;
+}
+
+.active2 > li {
+  position: relative;
+  list-style: none;
+}
+
+.list > li > a {
+  position: relative;
+  display: inline-block;
+  margin: 0 15px;
+  color: var(--textColor);
+  text-decoration: none;
+} 
+
+.active2 > li > a {
+  position: relative;
+  display: inline-block;
+  margin: 0 15px;
+  color: var(--backColor);
+  text-decoration: none;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+/* responsiveness */
+
+@media (max-width: 991px) {
+  .navbar, .navbar.active {
+    padding: 20px 50px;
+    z-index: 1000;
+  }
+
+  .active2, .list {
+    position: fixed;
+    top: 75px;
+    right: 20px;
+    /* display: block; */
+    padding: 20px 15px; 
+    text-align: start; 
+    width: 20%;
+    /* height: 100vh; */
+    background: #fff;
+    transition: 0.5s;
+    z-index: 999;
+    border-top: 1px solid rgba (0,0,0,0.2);
+
+    display: flex;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+    flex-direction: column;
+
+    
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 10px;
+  }
+
+  .active2 li, .list li {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  /* .active2 li a, .list li a {
+    padding: 15px 15px;
+    padding-right: 100%;
+  } */
+
+  /* .active2 li:hover, .list li:hover {
+    background: #111;
+  } */
+
+  .active2 li a:hover, .list li a:hover {  
+    letter-spacing: 2px;
+    transition: 0.5s;
+  }
+
+
+  .navbar ul li a {
+    color: var(--backColor);
+  }
+
+  .firstMenu {
+    display: none;
+  }
+
+  .mobileMenu {
+    display: flex;
+    text-align: start;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .active1 , .logo {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .active1 , .logo {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .active1 , .logo {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 255px) {
+  .active1 , .logo {
+    font-size: 12px;
+  }
+}

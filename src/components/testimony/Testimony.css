@@ -1,0 +1,114 @@
+.testimony {
+  max-width: calc(50% - 40px);
+  padding: 60px 40px;
+  margin: 20px;
+  background: #111;
+}
+
+.testimony:hover {
+  background: var(--altColor);
+}
+
+.testimony p {
+  color: var(--textColor);
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.testimony h3 {
+   margin-top: 40px;
+   text-align: end;
+   color: var(--textColor);
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 1em;
+}
+
+.testimony h3 span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width: 1000px) {
+  .testimony {
+    max-width: calc(50% - 20px);
+    margin: 10px;
+    padding: 40px 20px;
+  } 
+
+  .testimony h3 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .testimony {
+    max-width: calc(60% );
+    padding: 30px 20px;
+  }
+
+  .testimony p {
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .testimony {
+    max-width: calc(70% );
+  }
+}
+
+@media (max-width: 475px) {
+  
+  .testimony {
+    padding: 20px 15px;
+  }
+
+  .testimony p {
+    font-size: 14px;
+  }
+
+  .testimony h3 {
+    font-size: 15px;
+  }
+
+  .testimony h3 span {
+    font-size: 11.5px;
+  }
+}
+
+@media (max-width: 375px) {
+  .testimony {
+    max-width: calc(80% );
+  }
+
+  .testimony p {
+    font-size: 13px;
+  }
+
+  .testimony h3 {
+    font-size: 14px;
+  }
+
+  .testimony h3 span {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 300px) {
+
+  .testimony p {
+    font-size: 12px;
+  }
+
+  .testimony h3 {
+    font-size: 13px;
+  }
+
+  .testimony h3 span {
+    font-size: 11px;
+  }
+}

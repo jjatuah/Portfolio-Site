@@ -1,0 +1,6 @@
+.copyright {
+  background: var(--backColor);
+  color: var(--textColor);
+  text-align: center;
+  padding: 10px;
+}

@@ -1,0 +1,100 @@
+.jobs {
+  background: var(--backColor);
+  padding: 100px;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header > p {
+  color: var(--textColor);
+  font-size: 1rem;
+}
+
+.header.white {
+  color: var(--textColor);
+}
+
+.jobs > .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.jobs > .content > .jobsBx {
+  padding: 40px 20px;
+  background: #111;
+  color: var(--textColor);
+  max-width: 340px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.jobs > .content > .jobsBx:hover {
+  background: #2196f3;
+  cursor: pointer;
+}
+
+.jobs > .content > .jobsBx > img {
+  max-width: 80px;
+  filter: invert(1);
+}
+
+.jobs > .content > .jobsBx > h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header > h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 710px) {
+  .header > p {
+    font-size: .94rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .jobs {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .jobs {
+    padding: 50px 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header > p {
+    font-size: .85rem;
+  }
+
+  .jobs {
+    padding: 50px 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header > p {
+    font-size: .78rem;
+  }
+}
+
+
+
+
+

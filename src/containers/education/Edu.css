@@ -1,0 +1,121 @@
+.edu{
+  padding: 0 50px;
+  background-color: var(--backColor);
+}
+
+/* .edu > h2 {
+  color: var(--textColor);
+  text-align: center;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  padding: 1rem 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+} */
+
+.eduContainerGrid{
+  row-gap: 2rem;
+}
+
+.eduContent {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+}
+
+.eduYear, .eduDegree {
+  margin-bottom: 0.25rem;
+  font-size: medium;
+  color: #fff;
+}
+
+.eduUni, .eduCourse {
+  display: block;
+  font-size: small;
+  padding-bottom: 15px;
+  color: #fff;
+}
+
+.eduUni, .eduYear {
+  text-align: right;
+}
+
+.eduTime {
+  padding: 0 1rem;
+  justify-self: center;
+}
+
+.eduRounder {
+  position: relative;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #2196f3;
+  border-radius: 50%;
+}
+
+.eduRounder::before {
+  content: '';
+  position: absolute;
+  transform: translate(-4px, -4px);
+  width: 18px;
+  height: 18px;
+  border: 1px solid #2196f3;
+  border-radius: 50%;
+}
+
+.eduLine {
+  display: block;
+  height: 80%;
+  width: 2px;
+  background-color: #2196f3;
+  transform: translate(5px, -4px);
+}
+
+@media screen and (max-width: 700px) {
+  .edu {
+    padding: 0 25px;
+  }
+
+  .eduYear, .eduDegree {
+    font-size: 15px;
+  }
+
+  .eduUni, .eduCourse {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .edu {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .edu {
+    padding: 0 5px;
+  }
+
+  .eduYear, .eduDegree {
+    font-size: 14px;
+  }
+
+  .eduUni, .eduCourse {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .edu {
+    padding: 0 2px;
+  }
+
+  .eduYear, .eduDegree {
+    font-size: 13px;
+  }
+
+  .eduUni, .eduCourse {
+    font-size: 10px;
+  }
+}

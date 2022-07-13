@@ -1,0 +1,111 @@
+.banner {
+  position: relative;
+  min-height: 100vh;
+  background: url(../../assets/banner.jpg);
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textBx {
+  align-items: center;
+  justify-content: center;
+  padding: 0 100px;
+}
+
+.banner > .textBx > h2 {
+  font-size: 3em;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.banner > .textBx > h2 > span {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.banner > .textBx > h3{
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #fff;
+}
+
+.btn {
+  position: relative;
+  background-color: #2196f3;
+  display: inline-block;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+@media (max-width: 991px) {
+  .banner {
+    padding: 150px 50px 100px;
+  }
+
+  .banner > .textBx > h2 {
+    font-size: 1.5em;
+  }
+
+  .banner > .textBx > h3{
+    font-size: 1em;
+  }
+
+  .btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner {
+    padding: 150px 20px 100px ;
+  } 
+
+  .textBx {
+    padding: 0 50px;
+  }
+}
+
+@media screen and  (max-width: 530px){
+  .banner > .textBx > h2 {
+    font-size: 1.3em;
+  }
+  .btn {
+    font-size: 13px;
+  }
+}
+
+@media screen and  (max-width: 390px){
+  .banner > .textBx > h2 {
+    font-size: 1.1em;
+  }
+  .btn {
+    font-size: 11px;
+  }
+  .textBx {
+    padding: 0 10px;
+  }
+}
+
+@media screen and  (max-width: 290px){
+  .banner > .textBx > h2 {
+    font-size: .9em;
+  }
+  .btn {
+    font-size: 10px;
+  }
+  .textBx {
+    padding: 0 3px;
+  }
+}
