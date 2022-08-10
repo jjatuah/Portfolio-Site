@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="textBx">
       <h2>Hello, I'm <br /> <span>Jatuah Joseph.</span></h2>
       <h3>A Front-end Web Developer.</h3>
-      <a href="#about" class="btn">About Me</a>
+      <a href="#about" className="btn">About Me</a>
     </div>
   </div> );
 }

@@ -8,7 +8,6 @@ import Testimonials from "./containers/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import CopyRight from "./components/copyright/CopyRight";
 import Edu from "./containers/education/Edu";
-import Skill from "./containers/skills/Skill";
  
 
 const App = () => {

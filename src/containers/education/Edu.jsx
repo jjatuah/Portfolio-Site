@@ -4,92 +4,92 @@ import "./Edu.css";
 
 const Edu = () => {
   return ( 
-    <div class="edu" id='edu'>
+    <div className="edu" id='edu'>
         <h2 id='secColor' >My Education</h2>
 
-        <div class="eduContainerGrid">
-          <div class="eduContent">
+        <div className="eduContainerGrid">
+          <div className="eduContent">
             <div>
-              <h3 class="eduYear">2015-2020</h3>
-              <span class="eduUni">Federal University of Technology Minna</span>
+              <h3 className="eduYear">2015-2020</h3>
+              <span className="eduUni">Federal University of Technology Minna</span>
             </div>
 
-            <div class="eduTime">
-              <span class="eduRounder"></span>
-              <span class="eduLine"></span>
+            <div className="eduTime">
+              <span className="eduRounder"></span>
+              <span className="eduLine"></span>
             </div>
 
             <div>
-              <h3 class="eduDegree">Bachelor of Engineering</h3>
-              <span class="eduCourse">Mechanical Engineering</span>
+              <h3 className="eduDegree">Bachelor of Engineering</h3>
+              <span className="eduCourse">Mechanical Engineering</span>
             </div>
           </div>
 
-          <div class="eduContent">
+          <div className="eduContent">
             <div>
-              <h3 class="eduYear">2020</h3>
-              <span class="eduUni">Google Digital Skills For Africa</span>
+              <h3 className="eduYear">2020</h3>
+              <span className="eduUni">Google Digital Skills For Africa</span>
             </div>
 
-            <div class="eduTime">
-              <span class="eduRounder"></span>
-              <span class="eduLine"></span>
+            <div className="eduTime">
+              <span className="eduRounder"></span>
+              <span className="eduLine"></span>
             </div>
 
             <div>
-              <h3 class="eduDegree">Fundamentals of Digital Marketing</h3>
-              <span class="eduCourse">Web Analytics, SEO, SEM</span>
+              <h3 className="eduDegree">Fundamentals of Digital Marketing</h3>
+              <span className="eduCourse">Web Analytics, SEO, SEM</span>
             </div>
           </div>
 
-          <div class="eduContent">
+          <div className="eduContent">
             <div>
-              <h3 class="eduYear">2021</h3>
-              <span class="eduUni">Jobberman</span>
+              <h3 className="eduYear">2021</h3>
+              <span className="eduUni">Jobberman</span>
             </div>
 
-            <div class="eduTime">
-              <span class="eduRounder"></span>
-              <span class="eduLine"></span>
+            <div className="eduTime">
+              <span className="eduRounder"></span>
+              <span className="eduLine"></span>
             </div>
 
             <div>
-              <h3 class="eduDegree">Jobberman Soft skills Certification</h3>
-              <span class="eduCourse">Team Work, Workplace Ethics, Idea Generation</span>
+              <h3 className="eduDegree">Jobberman Soft skills Certification</h3>
+              <span className="eduCourse">Team Work, Workplace Ethics, Idea Generation</span>
             </div>
           </div>
 
-          <div class="eduContent">
+          <div className="eduContent">
             <div>
-              <h3 class="eduYear">2021</h3>
-              <span class="eduUni">Side Hustle Internship Cohort 4</span>
+              <h3 className="eduYear">2021</h3>
+              <span className="eduUni">Side Hustle Internship Cohort 4</span>
             </div>
 
-            <div class="eduTime">
-              <span class="eduRounder"></span>
-              <span class="eduLine"></span>
+            <div className="eduTime">
+              <span className="eduRounder"></span>
+              <span className="eduLine"></span>
             </div>
 
             <div>
-              <h3 class="eduDegree">Frontend Web Development</h3>
-              <span class="eduCourse">React Js</span>
+              <h3 className="eduDegree">Frontend Web Development</h3>
+              <span className="eduCourse">React Js</span>
             </div>
           </div>
 
-          <div class="eduContent">
+          <div className="eduContent">
             <div>
-              <h3 class="eduYear">2022</h3>
-              <span class="eduUni">AltSchool Africa</span>
+              <h3 className="eduYear">2022</h3>
+              <span className="eduUni">AltSchool Africa</span>
             </div>
 
-            <div class="eduTime">
-              <span class="eduRounder"></span>
-              <span class="eduLine"></span>
+            <div className="eduTime">
+              <span className="eduRounder"></span>
+              <span className="eduLine"></span>
             </div>
 
             <div>
-              <h3 class="eduDegree">Backend Web Development</h3>
-              <span class="eduCourse">Node Js</span>
+              <h3 className="eduDegree">Backend Web Development</h3>
+              <span className="eduCourse">Node Js</span>
             </div>
           </div>
 

@@ -2,13 +2,13 @@ import React from 'react';
 import "./Job.css";
 
 
-const Job = ({img, head, desc}) => {
+const Job = ({img, head, desc, link}) => {
   return ( 
-    <div className="job">
+    <a href={link} className="job">
       <img src={img} alt="" />
       <h2>{head}</h2>
       <p>{desc}</p>
-    </div>
+    </a> 
   );
 }
  

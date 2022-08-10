@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
 import "./Navbar.css";
-import { Menu } from '@material-ui/icons';
 import {RiMenu3Line, RiCloseLine} from "react-icons/ri";
 
 
