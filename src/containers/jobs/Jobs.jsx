@@ -19,17 +19,17 @@ const Jobs = () => {
       </div>
       <div className="content">
 
-        <Job img={diceImg} head={"The Pig Game"} desc={"I developed the popular pig game for laptops and ipads using HTML, CSS and JavaScript."} />
+        <Job img={netflixImg} head={"Simple Netflix Clone"} desc={"I developed a simple Netflix Clone to play the trailer of movies it can find using an API. I developed it using React Js."} link="https://netflix-clone-demo-72ae2.web.app" />
 
-        <Job img={fitnessImg} head={"Fitness Website"} desc={"This is the frontend of a fitness website I developed using React Js."} />
+        <Job img={diceImg} head={"The Pig Game"} desc={"I developed the popular pig game for laptops and ipads using HTML, CSS and JavaScript."} link="https://netflix-clone-demo-72ae2.web.app" />
 
-        <Job img={netflixImg} head={"Simple Netflix Clone"} desc={"I developed a simple Netflix Clone to play the trailer of movies it can find using an API. I developed it using React Js."} />
+        <Job img={fitnessImg} head={"Fitness Website"} desc={"This is the frontend of a fitness website I developed using React Js."} link="https://netflix-clone-demo-72ae2.web.app" />  
 
-        <Job img={teslaImg} head={"Tesla Frontend Clone"} desc={"I developed the frontend of the Tesla website at the time using React js."} />
+        <Job img={figmaImg} head={"Figma GPT3 Webpage"} desc={"I developed this landing page based on the exact same GPT3 figma design."} link="https://netflix-clone-demo-72ae2.web.app" />
 
-        <Job img={spotifyImg} head={"Spotify Frontend Clone"} desc={"I developed a simple spotify frontend clone. I developed this to solidify my design skills at that time. It doesn't play music."} />
+        <Job img={teslaImg} head={"Tesla Frontend Clone"} desc={"I developed the frontend of the Tesla website at the time using React js."} link="https://netflix-clone-demo-72ae2.web.app" />
 
-        <Job img={figmaImg} head={"Figma GPT3 Webpage"} desc={"I developed this landing page based on the exact same GPT3 figma design."} />
+        <Job img={spotifyImg} head={"Spotify Frontend Clone"} desc={"I developed a simple spotify frontend clone. I developed this to solidify my design skills at that time. It doesn't play music."} link="https://netflix-clone-demo-72ae2.web.app" />
 
       </div>
     </div>

@@ -4,7 +4,7 @@ import "./Job.css";
 
 const Job = ({img, head, desc, link}) => {
   return ( 
-    <a href={link} className="job">
+    <a href={link} target="_blank" className="job">
       <img src={img} alt="" />
       <h2>{head}</h2>
       <p>{desc}</p>

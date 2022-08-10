@@ -1,6 +1,7 @@
 .edu{
   padding: 0 50px;
   background-color: var(--backColor);
+  padding-top: 70px;
 }
 
 /* .edu > h2 {
@@ -75,6 +76,7 @@
 @media screen and (max-width: 700px) {
   .edu {
     padding: 0 25px;
+    padding-top: 70px;
   }
 
   .eduYear, .eduDegree {
@@ -89,12 +91,14 @@
 @media screen and (max-width: 620px) {
   .edu {
     padding: 0 10px;
+    padding-top: 70px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .edu {
     padding: 0 5px;
+    padding-top: 70px;
   }
 
   .eduYear, .eduDegree {
@@ -109,6 +113,7 @@
 @media screen and (max-width: 400px) {
   .edu {
     padding: 0 2px;
+    padding-top: 70px;
   }
 
   .eduYear, .eduDegree {

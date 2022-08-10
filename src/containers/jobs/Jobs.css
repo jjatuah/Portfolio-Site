@@ -1,6 +1,7 @@
 .jobs {
   background: var(--backColor);
   padding: 100px;
+  padding-bottom: 0;
 }
 
 .header {
@@ -68,13 +69,15 @@
 
 @media screen and (max-width: 600px) {
   .jobs {
-    padding: 50px;
+    padding: 100px 50px;
+    padding-bottom: 0;
   }
 }
 
 @media screen and (max-width: 500px) {
   .jobs {
-    padding: 50px 30px;
+    padding: 100px 30px;
+    padding-bottom: 0;
   }
 }
 
@@ -84,13 +87,21 @@
   }
 
   .jobs {
-    padding: 50px 10px;
+    padding: 100px 10px;
+    padding-bottom: 0;
   }
 }
 
 @media screen and (max-width: 350px) {
   .header > p {
     font-size: .78rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .jobs {
+    padding: 100px 2px;
+    padding-bottom: 0;
   }
 }
 

@@ -1,6 +1,7 @@
 .contact {
   padding: 50px;
   background: var(--backColor);
+  padding-top: 80px;
 }
 
 .header {
@@ -152,6 +153,7 @@
 @media screen and (max-width: 900px) {
   .contact {
     padding: 30px;
+    padding-top: 80px;
   }
 
   .formBx form input {

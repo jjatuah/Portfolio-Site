@@ -35,6 +35,8 @@
 
 .contentBx {
   padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contentBx > h3 {
@@ -50,6 +52,8 @@
   line-height: 1.55;
   margin-top: 0;
   text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .w50 {
@@ -69,7 +73,7 @@ img {
 
 @media screen and  (max-width: 1050px){
   .about {
-    padding: 50px 50px 0;
+    padding: 100px 50px 0;
   }
 }
 
@@ -103,7 +107,7 @@ img {
 
 @media screen and  (max-width: 860px){
   .about {
-    padding: 70px 55px 0;
+    padding: 100px 55px 0;
   } 
 
   .contentBx {
@@ -114,6 +118,16 @@ img {
 @media screen and  (max-width: 750px){
   img {
     max-width: 90%;
+  }
+}
+
+@media screen and  (max-width: 700px){
+  .about {
+    padding: 100px 38px 0;
+  }
+
+  .contentBx {
+    padding: 0 30px 20px 0;
   }
 }
 
@@ -132,15 +146,25 @@ img {
   }
 }
 
+@media screen and  (max-width: 600px){
+  .about {
+    padding: 100px 28px 0;
+  }
+
+  .contentBx {
+    padding: 0 25px 20px 0;
+  }
+}
+
 @media screen and  (max-width: 550px){
   .about {
-    padding: 50px 15px 0 40px;
+    padding: 100px 15px 0 40px;
   }
 }
 
 @media screen and  (max-width: 450px){
   .about {
-    padding: 50px 5px 0 30px;
+    padding: 100px 5px 0 30px;
   }
 
   #secColor {
@@ -159,7 +183,7 @@ img {
 
 @media screen and  (max-width: 390px){
   .about {
-    padding: 30px 0px 0 20px;
+    padding: 100px 0px 0 20px;
   }
 
   #secColor {
@@ -178,7 +202,11 @@ img {
 
 @media screen and  (max-width: 340px){
   .about {
-    padding: 30px 0px 0 20px;
+    padding: 100px 0px 0 12px;
+  }
+
+  .contentBx {
+    padding: 0 15px 20px 0;
   }
 
   #secColor {

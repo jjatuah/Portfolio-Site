@@ -1,6 +1,7 @@
 .testimonials {
   background: var(--backColor);
   padding: 50px;
+  padding-top: 80px;
 }
 
 .testimonials .content {
@@ -14,6 +15,7 @@
 @media screen and (max-width: 1000px) {
   .testimonials {
     padding: 25px;
+    padding-top: 80px;
   } 
   .testimonials > .content {
     width: 100%;
@@ -24,11 +26,13 @@
 @media screen and (max-width: 700px) {
   .testimonials {
     padding: 15px;
+    padding-top: 80px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .testimonials {
     padding: 10px;
+    padding-top: 80px;
   }
 }
