@@ -74,6 +74,12 @@
   text-decoration: none;
 }
 
+.list > li > a:hover, .active2 > li > a:hover {
+  color: var(--altColor);
+  /* letter-spacing: 1px; */
+  /* transition: .5s; */
+}
+
 .mobileMenu {
   display: none;
 }

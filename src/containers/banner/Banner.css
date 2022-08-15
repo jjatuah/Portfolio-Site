@@ -47,6 +47,12 @@
   font-weight: 500;
 }
 
+.btn:hover {
+  background-color: var(--textColor);
+  color: var(--altColor);
+  border-radius: 7px;
+}
+
 @media (max-width: 991px) {
   .banner {
     padding: 150px 50px 100px;
