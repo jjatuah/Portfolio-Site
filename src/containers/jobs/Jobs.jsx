@@ -26,7 +26,7 @@ const Jobs = () => {
 
         <Job img={fitnessImg} head={"Fitness Website"} desc={"This is the frontend of a fitness website I developed using React Js."} link="https://62fa77879338417c5a8aaa3f--clinquant-pasca-d700f0.netlify.app/" />  
 
-        <Job img={figmaImg} head={"Figma GPT3 Webpage"} desc={"I developed this landing page based on the exact same GPT3 figma design in the link below https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A1."} link="https://62fa7680fc1ab20556a08f80--chimerical-genie-c4eed8.netlify.app/" />
+        <Job img={figmaImg} head={"Figma GPT3 Webpage"} desc={"I developed this landing page based on the exact same GPT3 figma design in the link below."} link="https://62fa7680fc1ab20556a08f80--chimerical-genie-c4eed8.netlify.app/" />
 
         <Job img={teslaImg} head={"Tesla Frontend Clone"} desc={"I started working on the frontend of the Tesla website at the time using React Js."} link="https://62fa78a06b267d7f8e98d4f8--moonlit-pie-df2709.netlify.app/" />
 
